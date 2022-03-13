@@ -31,7 +31,7 @@ public class HelloWorld {
         return "test";
     }
 
-    @PostMapping("/myauth")
+    @PostMapping("/login")
     public ResponseEntity<?> responseResponseEntity(@RequestBody AuthenticateRequest request) throws Exception{
         try{
             authenticationManager
